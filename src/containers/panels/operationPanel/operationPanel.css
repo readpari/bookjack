@@ -1,0 +1,87 @@
+.exit-reading-button {
+  float: left;
+  width: 105px;
+  height: 37px;
+  background: rgba(146, 146, 146, 1);
+  opacity: 1;
+  margin-top: 11px;
+  margin-left: 23px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+.exit-reading-icon {
+  font-size: 21px;
+}
+.exit-reading-text {
+  font-size: 13px;
+  line-height: 37px;
+  opacity: 1;
+  margin-left: 10px;
+}
+.add-bookmark-button {
+  float: left;
+  width: 105px;
+  height: 37px;
+  background: rgba(92, 143, 211, 0.83);
+  opacity: 1;
+  margin-top: 11px;
+  margin-left: 26px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+.add-bookmark-icon {
+  font-size: 20px;
+  margin-left: 5px;
+}
+.add-bookmark-text {
+  font-size: 13px;
+  line-height: 14px;
+  opacity: 1;
+  margin-left: 10px;
+}
+.enter-fullscreen-button {
+  float: left;
+  width: 105px;
+  height: 37px;
+  background: rgba(94, 178, 148, 1);
+  opacity: 1;
+  margin-top: 11px;
+  margin-left: 26px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+.enter-fullscreen-icon {
+  font-size: 19px;
+  margin-left: 5px;
+}
+.enter-fullscreen-text {
+  font-size: 13px;
+  line-height: 14px;
+  opacity: 1;
+  margin-left: 10px;
+}
+.book-operation-panel {
+  width: 412px !important;
+  height: 90px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: calc(50% - 206px);
+  z-index: 10;
+  animation: fade-down 0.1s ease-in-out 0s 1;
+}
+.book-opeartion-info {
+  text-align: center;
+  line-height: 25px;
+  margin-top: 7px;
+  font-size: 15px;
+}

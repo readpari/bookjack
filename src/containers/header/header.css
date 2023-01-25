@@ -1,0 +1,141 @@
+.header {
+  width: 100%;
+  height: 80px;
+  overflow: hidden;
+  margin-left: 190px;
+}
+
+.setting-icon-container:hover {
+  border-radius: 50%;
+}
+
+.header-sort-icon {
+  float: left;
+  margin-top: 3px;
+  font-size: 26px;
+}
+.only-local-container {
+  position: absolute;
+  left: 520px;
+  margin-top: 29px;
+}
+.only-local-text {
+  float: left;
+  font-size: 15px;
+  line-height: 27px;
+  opacity: 1;
+}
+.only-local-icon {
+  float: left;
+  margin-top: 6px;
+  margin-left: 6px;
+  width: 30px;
+  height: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.only-local-slider {
+  float: left;
+  margin-top: 2px;
+  margin-left: 2px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.import-from-cloud {
+  margin-right: 20px;
+  margin-top: 23px;
+  width: 138px;
+  max-width: 158px;
+  height: 42px;
+  opacity: 1;
+  padding: 0 !important;
+  border-radius: 25px;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: 0.2s;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.import-from-cloud:hover .animation-mask {
+  transform: scaleX(1);
+}
+.import-from-local:hover .animation-mask-local {
+  transform: scaleX(1);
+}
+@media screen and (max-width: 950px) {
+  .import-from-cloud {
+    position: fixed;
+    left: 15px;
+    top: calc(100vh - 110px);
+    width: 138px;
+  }
+  .import-from-local {
+    position: fixed !important;
+    left: 15px;
+    top: calc(100vh - 170px) !important;
+    width: 138px;
+    padding: 0px !important;
+  }
+}
+.download-demo-book {
+  text-decoration: underline;
+  width: 200px;
+  position: absolute;
+  left: 690px;
+  top: 29px;
+  cursor: pointer;
+  color: #0078d4;
+}
+@media screen and (max-width: 1250px) {
+  .download-demo-book {
+    display: none;
+  }
+}
+.animation-mask,
+.animation-mask-local {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transition: 0.1s;
+  transform: scaleX(0);
+  transform-origin: left;
+  border-radius: 19px;
+}
+
+.header-search-container {
+  position: absolute;
+  top: 23px;
+  left: 235px;
+  width: 209px;
+  height: 40px;
+}
+.setting-icon {
+  font-size: 25px;
+  line-height: 50px;
+}
+
+.setting-icon-container {
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  line-height: 50px;
+  position: absolute;
+  left: 560px;
+  top: 20px;
+  cursor: pointer;
+  transition: 0.1s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
