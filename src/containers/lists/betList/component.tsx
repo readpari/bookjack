@@ -75,7 +75,7 @@ const BetWasNot = ({ days, setDays, hours, setHours, bet, setBet, setBetDidMount
       days: days == 0 ? true : false,
       bet: bet == 0 ? true : false,
     });
-    if ((warn.hours, warn.days, warn.bet)) setBetDidMount(true);
+    if (hours && days && bet) setBetDidMount(true);
   };
 
   return (

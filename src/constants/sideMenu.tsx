@@ -1,19 +1,20 @@
 export const sideMenu = [
   {
-    name: 'Books',
-    icon: 'home',
+    name: 'Idea',
+    icon: 'idea',
     mode: 'home',
   },
 
   {
-    name: 'About',
-    icon: 'idea',
-    mode: 'about',
-  },
-  {
     name: 'Bet',
-    icon: 'love',
+    icon: 'bet',
     mode: 'bet',
+  },
+
+  {
+    name: 'Books',
+    icon: 'books',
+    mode: 'books',
   },
 
   {
@@ -24,14 +25,14 @@ export const sideMenu = [
 
   {
     name: 'Notes',
-    icon: 'idea',
+    icon: 'notes',
     mode: 'note',
   },
-  {
-    name: 'Highlights',
-    icon: 'digest',
-    mode: 'digest',
-  },
+  // {
+  //   name: 'Highlights',
+  //   icon: 'digest',
+  //   mode: 'digest',
+  // },
   {
     name: 'Deleted Books',
     icon: 'trash',

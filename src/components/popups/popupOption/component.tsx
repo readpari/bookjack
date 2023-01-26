@@ -1,36 +1,36 @@
-import React from "react";
-import "./popupOption.css";
-import localforage from "localforage";
-import Note from "../../../model/Note";
-import { PopupOptionProps } from "./interface";
-import ColorOption from "../../colorOption";
-import RecordLocation from "../../../utils/readUtils/recordLocation";
-import { Tooltip } from "react-tippy";
-import { popupList } from "../../../constants/popupList";
-import StorageUtil from "../../../utils/serviceUtils/storageUtil";
-import toast from "react-hot-toast";
-import { getSelection } from "../../../utils/serviceUtils/mouseEvent";
-import copy from "copy-text-to-clipboard";
-import { getHightlightCoords } from "../../../utils/fileUtils/pdfUtil";
-import { getIframeDoc } from "../../../utils/serviceUtils/docUtil";
-import { openExternalUrl } from "../../../utils/serviceUtils/urlUtil";
-import { isElectron } from "react-device-detect";
+import React from 'react';
+import './popupOption.css';
+import localforage from 'localforage';
+import Note from '../../../model/Note';
+import { PopupOptionProps } from './interface';
+import ColorOption from '../../colorOption';
+import RecordLocation from '../../../utils/readUtils/recordLocation';
+import { Tooltip } from 'react-tippy';
+import { popupList } from '../../../constants/popupList';
+import StorageUtil from '../../../utils/serviceUtils/storageUtil';
+import toast from 'react-hot-toast';
+import { getSelection } from '../../../utils/serviceUtils/mouseEvent';
+import copy from 'copy-text-to-clipboard';
+import { getHightlightCoords } from '../../../utils/fileUtils/pdfUtil';
+import { getIframeDoc } from '../../../utils/serviceUtils/docUtil';
+import { openExternalUrl } from '../../../utils/serviceUtils/urlUtil';
+import { isElectron } from 'react-device-detect';
 
 declare var window: any;
 
 class PopupOption extends React.Component<PopupOptionProps> {
   handleNote = () => {
     this.props.handleChangeDirection(false);
-    this.props.handleMenuMode("note");
+    this.props.handleMenuMode('note');
     this.handleEdge();
   };
   handleEdge = () => {
     let page: any = { offsetLeft: 0 };
-    if (this.props.currentBook.format !== "PDF") {
-      page = document.getElementById("page-area");
+    if (this.props.currentBook.format !== 'PDF') {
+      page = document.getElementById('page-area');
       if (!page.clientWidth) return;
     }
-    let popupMenu: any = document.querySelector(".popup-menu-container");
+    let popupMenu: any = document.querySelector('.popup-menu-container');
     let posX = popupMenu?.style.left;
     let posY = popupMenu?.style.top;
     posX = parseInt(posX.substr(0, posX.length - 2));
@@ -38,7 +38,7 @@ class PopupOption extends React.Component<PopupOptionProps> {
     let rightEdge = this.props.pageWidth - 310 + page.offsetLeft * 2;
 
     if (posX > rightEdge) {
-      popupMenu?.setAttribute("style", `left:${rightEdge}px;top:${posY}px`);
+      popupMenu?.setAttribute('style', `left:${rightEdge}px;top:${posY}px`);
     }
   };
   handleCopy = () => {
@@ -49,62 +49,55 @@ class PopupOption extends React.Component<PopupOptionProps> {
     let doc = getIframeDoc();
     if (!doc) return;
     doc.getSelection()?.empty();
-    toast.success(this.props.t("Copy Successfully"));
+    toast.success(this.props.t('Copy Successfully'));
   };
   handleTrans = () => {
     if (!isElectron) {
       toast(
         this.props.t(
-          "Koodo Reader's web version are limited by the browser, for more powerful features, please download the desktop version."
-        )
+          "Reader's web version are limited by the browser, for more powerful features, please download the desktop version.",
+        ),
       );
       return;
     }
-    this.props.handleMenuMode("trans");
-    this.props.handleOriginalText(getSelection() || "");
+    this.props.handleMenuMode('trans');
+    this.props.handleOriginalText(getSelection() || '');
     this.handleEdge();
   };
   handleDigest = () => {
     let bookKey = this.props.currentBook.key;
-    let cfi = "";
-    if (this.props.currentBook.format === "PDF") {
-      cfi = JSON.stringify(
-        RecordLocation.getPDFLocation(this.props.currentBook.md5.split("-")[0])
-      );
+    let cfi = '';
+    if (this.props.currentBook.format === 'PDF') {
+      cfi = JSON.stringify(RecordLocation.getPDFLocation(this.props.currentBook.md5.split('-')[0]));
     } else {
-      cfi = JSON.stringify(
-        RecordLocation.getHtmlLocation(this.props.currentBook.key)
-      );
+      cfi = JSON.stringify(RecordLocation.getHtmlLocation(this.props.currentBook.key));
     }
-    let percentage = RecordLocation.getHtmlLocation(this.props.currentBook.key)
-      .percentage
+    let percentage = RecordLocation.getHtmlLocation(this.props.currentBook.key).percentage
       ? RecordLocation.getHtmlLocation(this.props.currentBook.key).percentage
       : 0;
     let color = this.props.color;
-    let notes = "";
-    let pageArea = document.getElementById("page-area");
+    let notes = '';
+    let pageArea = document.getElementById('page-area');
     if (!pageArea) return;
-    let iframe = pageArea.getElementsByTagName("iframe")[0];
+    let iframe = pageArea.getElementsByTagName('iframe')[0];
     if (!iframe) return;
     let doc = iframe.contentDocument;
     if (!doc) return;
     let charRange;
-    if (this.props.currentBook.format !== "PDF") {
-      charRange = window.rangy
-        .getSelection(iframe)
-        .saveCharacterRanges(doc.body)[0];
+    if (this.props.currentBook.format !== 'PDF') {
+      charRange = window.rangy.getSelection(iframe).saveCharacterRanges(doc.body)[0];
     }
     let range =
-      this.props.currentBook.format === "PDF"
+      this.props.currentBook.format === 'PDF'
         ? JSON.stringify(getHightlightCoords())
         : JSON.stringify(charRange);
     let text = doc.getSelection()?.toString();
     if (!text) return;
-    text = text.replace(/\s\s/g, "");
-    text = text.replace(/\r/g, "");
-    text = text.replace(/\n/g, "");
-    text = text.replace(/\t/g, "");
-    text = text.replace(/\f/g, "");
+    text = text.replace(/\s\s/g, '');
+    text = text.replace(/\r/g, '');
+    text = text.replace(/\n/g, '');
+    text = text.replace(/\t/g, '');
+    text = text.replace(/\f/g, '');
     let digest = new Note(
       bookKey,
       this.props.chapter,
@@ -115,81 +108,81 @@ class PopupOption extends React.Component<PopupOptionProps> {
       notes,
       percentage,
       color,
-      []
+      [],
     );
     let noteArr = this.props.notes;
     noteArr.push(digest);
-    localforage.setItem("notes", noteArr).then(() => {
+    localforage.setItem('notes', noteArr).then(() => {
       this.props.handleOpenMenu(false);
-      toast.success(this.props.t("Add Successfully"));
+      toast.success(this.props.t('Add Successfully'));
       this.props.handleFetchNotes();
-      this.props.handleMenuMode("highlight");
+      this.props.handleMenuMode('highlight');
     });
   };
   handleJump = (url: string) => {
     openExternalUrl(url);
   };
   handleSearchInternet = () => {
-    switch (StorageUtil.getReaderConfig("searchEngine")) {
-      case "google":
-        this.handleJump("https://www.google.com/search?q=" + getSelection());
+    switch (StorageUtil.getReaderConfig('searchEngine')) {
+      case 'google':
+        this.handleJump('https://www.google.com/search?q=' + getSelection());
         break;
-      case "baidu":
-        this.handleJump("https://www.baidu.com/s?wd=" + getSelection());
+      case 'baidu':
+        this.handleJump('https://www.baidu.com/s?wd=' + getSelection());
         break;
-      case "bing":
-        this.handleJump("https://www.bing.com/search?q=" + getSelection());
+      case 'bing':
+        this.handleJump('https://www.bing.com/search?q=' + getSelection());
         break;
-      case "duckduckgo":
-        this.handleJump("https://duckduckgo.com/?q=" + getSelection());
+      case 'duckduckgo':
+        this.handleJump('https://duckduckgo.com/?q=' + getSelection());
         break;
-      case "yandex":
-        this.handleJump("https://yandex.com/search/?text=" + getSelection());
+      case 'yandex':
+        this.handleJump('https://yandex.com/search/?text=' + getSelection());
         break;
-      case "yahoo":
-        this.handleJump("https://search.yahoo.com/search?p=" + getSelection());
+      case 'yahoo':
+        this.handleJump('https://search.yahoo.com/search?p=' + getSelection());
         break;
-      case "naver":
+      case 'naver':
         this.handleJump(
-          "https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=1&ie=utf8&query=" +
-            getSelection()
+          'https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=1&ie=utf8&query=' +
+            getSelection(),
         );
         break;
-      case "baike":
-        this.handleJump("https://baike.baidu.com/item/" + getSelection());
+      case 'baike':
+        this.handleJump('https://baike.baidu.com/item/' + getSelection());
         break;
-      case "wiki":
-        this.handleJump("https://en.wikipedia.org/wiki/" + getSelection());
+      case 'wiki':
+        this.handleJump('https://en.wikipedia.org/wiki/' + getSelection());
         break;
       default:
         this.handleJump(
-          navigator.language === "zh-CN"
-            ? "https://www.baidu.com/s?wd=" + getSelection()
-            : "https://www.google.com/search?q=" + getSelection()
+          navigator.language === 'zh-CN'
+            ? 'https://www.baidu.com/s?wd=' + getSelection()
+            : 'https://www.google.com/search?q=' + getSelection(),
         );
         break;
     }
   };
   handleSearchBook = () => {
-    let leftPanel = document.querySelector(".left-panel");
-    const clickEvent = new MouseEvent("click", {
+    let leftPanel = document.querySelector('.left-panel');
+    const clickEvent = new MouseEvent('click', {
       view: window,
       bubbles: true,
       cancelable: true,
     });
     if (!leftPanel) return;
     leftPanel.dispatchEvent(clickEvent);
-    const focusEvent = new MouseEvent("focus", {
+    const focusEvent = new MouseEvent('focus', {
       view: window,
       bubbles: true,
       cancelable: true,
     });
-    let searchBox: any = document.querySelector(".header-search-box");
+    let searchBox: any = document.querySelector('.header-search-box');
     searchBox.dispatchEvent(focusEvent);
-    let searchIcon = document.querySelector(".header-search-icon");
+    let searchIcon = document.querySelector('.header-search-icon');
     searchIcon?.dispatchEvent(clickEvent);
-    searchBox.value = getSelection() || "";
-    const keyEvent: any = new KeyboardEvent("keydown", {
+    searchBox.value = getSelection() || '';
+    const keyEvent: any = new KeyboardEvent('keydown', {
       bubbles: true,
       cancelable: true,
       keyCode: 13,
@@ -200,7 +193,7 @@ class PopupOption extends React.Component<PopupOptionProps> {
 
   handleSpeak = () => {
     var msg = new SpeechSynthesisUtterance();
-    msg.text = getSelection() || "";
+    msg.text = getSelection() || '';
     msg.voice = window.speechSynthesis.getVoices()[0];
     window.speechSynthesis.speak(msg);
   };
@@ -213,7 +206,7 @@ class PopupOption extends React.Component<PopupOptionProps> {
               return (
                 <div
                   key={item.name}
-                  className={item.name + "-option"}
+                  className={item.name + '-option'}
                   onClick={() => {
                     switch (index) {
                       case 0:
@@ -241,16 +234,9 @@ class PopupOption extends React.Component<PopupOptionProps> {
                       default:
                         break;
                     }
-                  }}
-                >
-                  <Tooltip
-                    title={this.props.t(item.title)}
-                    position="top"
-                    trigger="mouseenter"
-                  >
-                    <span
-                      className={`icon-${item.icon} ${item.name}-icon`}
-                    ></span>
+                  }}>
+                  <Tooltip title={this.props.t(item.title)} position="top" trigger="mouseenter">
+                    <span className={`icon-${item.icon} ${item.name}-icon`}></span>
                   </Tooltip>
                 </div>
               );
