@@ -1,6 +1,6 @@
 export const sideMenu = [
   {
-    name: 'Idea',
+    name: 'About',
     icon: 'idea',
     mode: 'home',
   },
