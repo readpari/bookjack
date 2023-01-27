@@ -95,10 +95,25 @@
   font-size: 20px;
   margin-bottom: 52px;
   line-height: 1.3;
+  white-space: pre-wrap;
 }
 
 .aboutContainer {
   display: flex;
   flex-direction: column;
   width: 70%;
+}
+
+.languageButtons {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.lang {
+  margin: 13px;
+  cursor: pointer;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+  white-space: pre-wrap;
 }
