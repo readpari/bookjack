@@ -1,6 +1,6 @@
 export const text = {
   EN: [
-    'Bookjack is a unique reader. It takes a lot of willpower to read a lot. Bookjack will give you that power.',
+    "Bookjack is a unique reading app. He doesn't care if you want to read or not. You will read no matter what.",
     "Pick a book you've been wanting to read for a long time. Make a bet that you will do it, for example, in 1 week. If you don't make it, you will lose your money. If you succeed, the money will be returned to you. You will not receive profit, but the victory will pay for the time spent.",
     'How Bookjack works. \n Bookjack works on the Near blockchain.It is a simple open source smart contract. A smart contract is a smart wallet that manages its money according to a strictly defined algorithm. It cannot be changed, blocked or hacked.',
     'By placing a bet, you transfer money to this wallet. Now they are stored there until the end of the transaction and no one is able to extract them from it. If you comply with his requirements, he sends your money to your wallet. If not, it sends your bet to the casino wallet.',
@@ -9,7 +9,7 @@ export const text = {
     'We wish you lucky reading.',
   ],
   RU: [
-    'Bookjack это уникальное приложение для чтения. Чтобы много читать необходима большая сила воли. Bookjack даст вам эту силу.',
+    'Bookjack это уникальное приложение для чтения. \n  Его не интересует, хотите вы читать или не хотите. \n  Вы будете читать, несмотря ни на что.',
     'Выберите книгу, которую давно хотели прочитать. Сделайте ставку, что успеете выполнить это, например за 1 неделю. Если не успеете, Вы проиграете свои деньги. Если успеете, деньги вернутся Вам обратно. Прибыли вы не получите, но победа окупит потраченное время.',
     'Как работает Bookjack. \n Bookjack работает на блоечейне Near. Это простой смарт-контракт, с открытым исходным кодом. Смарт-контракт это умный кошелек, который распоряжается  своими деньгами, по строго заданному алгоритму. Его невозможно изменить, заблокировать или взломать.',
     'Делая ставку вы переводите деньги на этот кошелек. Теперь они хранятся там до конца сделки и никто не в силах извлечь их из него. Если вы выполняете его требования, он пересылает Ваши деньги, на Ваш кошелек. Если нет, он отправляет Вашу ставку на кошелек казино.',
