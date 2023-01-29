@@ -119,8 +119,8 @@ export const chat = {
     'Parents can use the BookJack app to help their children develop motivation and the habit of constantly working on certain tasks. They can simply give their child a set number of hours of reading by a certain deadline and give them a cash prize if they can successfully complete the task within the time allowed. .This will keep them motivated and in the habit of working hard on their tasks.',
     'What are the disadvantages of this way of reading, compared to the usual way?',
     'There may be tax issues and digital security issues when using this application. There may also be problems with tracking progress and inconsistencies between game rules. Finally, users may experience problems when trying to withdraw and transfer funds. The normal way of reading offers more convenience, such as ease of obtaining the book, ease of use, availability of subscriptions, and cheap rates.',
-    'What can go wrong if you use this app?',
-    'If you use the Book Jack application, the security of the application may go wrong. This may lead to intruders entering the system and compromising the integrity of data. Also, the insufficient performance of the application may result in users not being able to make use of the application efficiently enough. It is also necessary to provide sufficient technical support to users of the application.',
+//     'What can go wrong if you use this app?',
+//     'If you use the Book Jack application, the security of the application may go wrong. This may lead to intruders entering the system and compromising the integrity of data. Also, the insufficient performance of the application may result in users not being able to make use of the application efficiently enough. It is also necessary to provide sufficient technical support to users of the application.',
   ],
   RU: [
     'Что ты думаешь о BookJack?',
@@ -140,8 +140,8 @@ export const chat = {
     'Родители могут использовать приложение BookJack для помощи своим детям в развитии мотивации и привычки к постоянной работе над определенными задачами. Они могут просто задать своему ребенку определенное количество часов чтения до определенного срока и дать ему денежный приз, если он сможет успешно завершить задание за предоставленное время. Это позволит им поддерживать мотивацию и привычку усердно работать над своими задачами.',
     'Какие недостатки такого способа чтения, перед обычным способом?',
     'При использовании данного приложения могут возникнуть налоговые проблемы, а также проблемы с цифровой безопасностью. Также могут возникнуть проблемы с отслеживанием прогресса и противоречия между правилами игры. Наконец, пользователи могут испытывать проблемы при попытке вывода и перевода средств. Обычный способ чтения предлагает больше удобств, таких как простота получения книги, удобство использования, доступность подписки и дешевые ставки.',
-    'Что может пойти не так, если использовать это приложение?',
-    'Если использовать приложение Book Jack, то может пойти не так с безопасностью приложения. Это может привести к проникновению злоумышленников в систему и нарушению целостности данных. Также недостаточная производительность приложения может привести к тому, что пользователи будут не в состоянии сделать использование приложения достаточно эффективно. Также необходимо предоставить достаточную техническую поддержку пользователям приложения.',
+//     'Что может пойти не так, если использовать это приложение?',
+//     'Если использовать приложение Book Jack, то может пойти не так с безопасностью приложения. Это может привести к проникновению злоумышленников в систему и нарушению целостности данных. Также недостаточная производительность приложения может привести к тому, что пользователи будут не в состоянии сделать использование приложения достаточно эффективно. Также необходимо предоставить достаточную техническую поддержку пользователям приложения.',
   ],
   CHN: [
     '你觉得 BookJack 怎么样？',
