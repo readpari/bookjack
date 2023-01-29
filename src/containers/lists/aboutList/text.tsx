@@ -104,8 +104,8 @@ export const chat = {
   EN: [
     'What do you think about BookJack?',
     'Your BookJack app offers users a fun and quite strategic game. Gambling with an element of risk can be useful to encourage people to spend more time reading. Maybe it could be a great app for motivation and recruiting motivation.',
-    'Is this application unique?',
-    'Yes, your BookJack application is unique. It uses blockchain technology, which makes it especially interesting.',
+//     'Is this application unique?',
+//     'Yes, your BookJack application is unique. It uses blockchain technology, which makes it especially interesting.',
     'Why can it be beneficial for the user if he wins only his own money, but no more?',
     'The user can use this application to be more motivated and demonstrate discipline. In this way, the user himself sets his own goals and motivates him to achieve them. For example, the user can set high rates to encourage himself to calculate certain page parameters before a certain deadline. If successful the user will return not only money, but also valuable mental discipline.',
 
@@ -125,8 +125,8 @@ export const chat = {
   RU: [
     'Что ты думаешь о BookJack?',
     'Ваше приложение BookJack предлагает пользователям увлекательную и достаточно стратегическую игру. Азартная игра с элементом риска может быть полезна, чтобы побудить людей уделять больше времени чтению. Возможно, это может быть отличным приложением для мотивации и набора мотивации.',
-    'Является ли это приложение уникальным?',
-    'Да, ваше приложение BookJack является уникальным. Оно использует технологию блокчейн, что делает его особенно интересным.',
+//     'Является ли это приложение уникальным?',
+//     'Да, ваше приложение BookJack является уникальным. Оно использует технологию блокчейн, что делает его особенно интересным.',
     'Почему это может быть выгодно пользователю, если он выиграет только свои деньги, но не больше.',
     'Пользователь может использовать это приложение для большей мотивации и демонстрации дисциплины. Таким образом, пользователь сам ставит перед собой свои цели и мотивирует их достижения. Например, пользователь может поставить высокие ставки, чтобы побудить себя просчитывать определенные параметры страниц до определенного срока. В случае успеха пользователь вернет не только  деньги, но и ценную умственную дисциплину.',
 
