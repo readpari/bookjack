@@ -5,7 +5,8 @@ export const text = {
     'How Bookjack works. \n Bookjack works on the Near blockchain.It is a simple open source smart contract. A smart contract is a smart wallet that manages its money according to a strictly defined algorithm. It cannot be changed, blocked or hacked.',
     'By placing a bet, you transfer money to this wallet. Now they are stored there until the end of the transaction and no one is able to extract them from it. If you comply with his requirements, he sends your money to your wallet. If not, it sends your bet to the casino wallet.',
     'To fulfill his requirements, you need to open the book and start flipping through the pages. At this point, the timer will start. If you fall asleep and stop flipping pages, the timer will stop. By placing a bid, you specify the number of hours you promise to read and a deadline. Before the end of this period, you must reset the timer.',
-    'You can fool Bookjack by mindlessly flipping pages for hours, staring at the wall. Bookjack is a truly smart smart contract, but alas, it cannot defeat the human intellect. He will return the money to you, but the spent nerves, alas, no.',    'We wish you lucky reading.',
+    'You can fool Bookjack by mindlessly flipping through the pages for hours, staring at the wall. Bookjack is a truly smart smart contract, but alas, it is not able to overcome the human intellect, so it will return the money to you, but, alas, no wasted nerves and time.',
+    'We wish you lucky reading.',
   ],
   RU: [
     'Bookjack это уникальное приложение для чтения. \n  Его не волнует, хотите вы читать или не хотите. \n  Вы будете читать, чего бы это не стоило.',
@@ -13,7 +14,7 @@ export const text = {
     'Как работает Bookjack. \n Bookjack работает на блоечейне Near. Это простой смарт-контракт, с открытым исходным кодом. Смарт-контракт это умный кошелек, который распоряжается  своими деньгами, по строго заданному алгоритму. Его невозможно изменить, заблокировать или взломать.',
     'Делая ставку вы переводите деньги на этот кошелек. Теперь они хранятся там до конца сделки и никто не в силах извлечь их из него. Если вы выполняете его требования, он пересылает Ваши деньги, на Ваш кошелек. Если нет, он отправляет Вашу ставку на кошелек казино.',
     'Чтобы выполнить его требования Вам необходимо открыть книгу и начать листать страницы. В этот момент включится таймер. Если Вы уснете и перестанете листать страницы, таймер остановится. Делая ставку, Вы указываете количество часов, которые Вы обещаете читать и крайний срок. До конца этого срока Вы должны обнулить таймер.',
-    'Вы можете обмануть Bookjack, бездумно листая страницы часами, уставившись в стенку. Bookjack по-настоящему умный смарт-контракт, но увы, он не в силах победить человеческий интеллект. Деньги он Вам вернет, но потраченные нервы, увы нет.',
+    'Вы можете обмануть Bookjack, часами бездумно листая страницы, уставившись в стенку. Bookjack по-настоящему умный смарт-контракт, но увы, он не в силах одолеть человеческий интеллект, поэтому деньги он Вам вернет, но потраченные нервы и время, увы нет.',
     'Желаем Вам удачного чтения.',
   ],
   CHN: [
