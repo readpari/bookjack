@@ -1,6 +1,6 @@
 export const text = {
   EN: [
-    'Bookjack is a magical reader. It takes a lot of willpower to read a lot. Bookjack will give you that power.',
+    'Bookjack is a unique reader. It takes a lot of willpower to read a lot. Bookjack will give you that power.',
     "Pick a book you've been wanting to read for a long time. Make a bet that you will do it, for example, in 1 week. If you don't make it, you will lose your money. If you succeed, the money will be returned to you. You will not receive profit, but the victory will pay for the time spent.",
     'How Bookjack works. \n Bookjack works on the Near blockchain.It is a simple open source smart contract. A smart contract is a smart wallet that manages its money according to a strictly defined algorithm. It cannot be changed, blocked or hacked.',
     'By placing a bet, you transfer money to this wallet. Now they are stored there until the end of the transaction and no one is able to extract them from it. If you comply with his requirements, he sends your money to your wallet. If not, it sends your bet to the casino wallet.',
@@ -9,7 +9,7 @@ export const text = {
     'We wish you lucky reading.',
   ],
   RU: [
-    'Bookjack это волшебное приложение для чтения. Чтобы много читать необходима большая сила воли. Bookjack даст вам эту силу.',
+    'Bookjack это уникальное приложение для чтения. Чтобы много читать необходима большая сила воли. Bookjack даст вам эту силу.',
     'Выберите книгу, которую давно хотели прочитать. Сделайте ставку, что успеете выполнить это, например за 1 неделю. Если не успеете, Вы проиграете свои деньги. Если успеете, деньги вернутся Вам обратно. Прибыли вы не получите, но победа окупит потраченное время.',
     'Как работает Bookjack. \n Bookjack работает на блоечейне Near. Это простой смарт-контракт, с открытым исходным кодом. Смарт-контракт это умный кошелек, который распоряжается  своими деньгами, по строго заданному алгоритму. Его невозможно изменить, заблокировать или взломать.',
     'Делая ставку вы переводите деньги на этот кошелек. Теперь они хранятся там до конца сделки и никто не в силах извлечь их из него. Если вы выполняете его требования, он пересылает Ваши деньги, на Ваш кошелек. Если нет, он отправляет Вашу ставку на кошелек казино.',
@@ -115,8 +115,6 @@ export const chat = {
     'What hormones are involved and how they help?',
     'There are several hormones that will be activated when using the BookJack app. Primarily the stress hormone cortisol, which helps the body cope with pressure and stress. It lowers blood pressure and calms the nervous system. Endorphins can also help the app user set a goal and achieve it. through an increased craving for success.These hormones can help a person in the process of using the app.',
 
-    'How can the usefulness of BookJack be explained from an economic point of view?',
-    'In the BookJack application, a person makes an investment, risking his money in exchange for the opportunity to make a big profit in the future. If he does not meet the deadline, he loses his money. This is an example of a risky investment in which the investor can make tangible returns, but in case of failure, he can lose everything.Usually, such an investment vehicle provides good earning opportunities and brings certain benefits to the economy.',
     'How can parents get their kids to use this app?',
     'Parents can use the BookJack app to help their children develop motivation and the habit of constantly working on certain tasks. They can simply give their child a set number of hours of reading by a certain deadline and give them a cash prize if they can successfully complete the task within the time allowed. .This will keep them motivated and in the habit of working hard on their tasks.',
     'What are the disadvantages of this way of reading, compared to the usual way?',
@@ -138,8 +136,6 @@ export const chat = {
     'Какие гормоны задействованы, и как они помогают?',
     'Есть несколько гормонов, которые будут задействованы при использовании приложения BookJack. В первую очередь это гормон стресса кортизол, который помогает организму справляться с давлением и стрессом. Он снижает артериальное давление и успокаивает нервную систему. Эндорфины также могут помочь пользователю приложения установить цель и достичь ее с помощью повышенного пристрастия к успеху. Эти гормоны могут помочь человеку в процессе использования приложения.',
 
-    'Как с точки зрения экономики можно объяснить полезность BookJack?',
-    'В приложении BookJack человек делает некий инвестиционный вклад, рискуя своими деньгами в обмен на возможность получить большую прибыль в будущем. Если он не достигает срока, он теряет свои деньги. Это представляет собой пример рискованной инвестиции, в которой инвестор может получить ощутимые прибыли, но в случае неудачи он может потерять все. Обычно такой инвестиционный инструмент обеспечивает хорошие возможности для заработка и приносит определенные выгоды экономике.',
     'Как родители могут заставить детей пользоваться этим приложением?',
     'Родители могут использовать приложение BookJack для помощи своим детям в развитии мотивации и привычки к постоянной работе над определенными задачами. Они могут просто задать своему ребенку определенное количество часов чтения до определенного срока и дать ему денежный приз, если он сможет успешно завершить задание за предоставленное время. Это позволит им поддерживать мотивацию и привычку усердно работать над своими задачами.',
     'Какие недостатки такого способа чтения, перед обычным способом?',
@@ -161,8 +157,6 @@ export const chat = {
     '涉及哪些激素以及它们如何提供帮助。',
     '使用 BookJack 应用程序时会激活多种激素。主要是压力荷尔蒙皮质醇，它可以帮助身体应对压力和压力。它可以降低血压并使神经系统平静下来。内啡肽还可以帮助应用程序用户设定目标并实现它。通过增加对成功的渴望。这些荷尔蒙可以帮助一个人在使用该应用程序的过程中。',
 
-    '如何从经济角度解释 BookJack 的用处？',
-    '在 BookJack 应用程序中，一个人进行投资，冒着金钱风险换取未来赚取巨额利润的机会。如果他没有在最后期限前完成，他就会赔钱。这是风险投资的一个例子投资者可以获得切实的回报，但如果失败，他可能会失去一切。通常，这种投资工具提供良好的盈利机会，并为经济带来一定的好处。',
     '父母如何才能让他们的孩子使用这个应用程序？',
     '父母可以使用 BookJack 应用程序来帮助他们的孩子培养积极性和不断完成某些任务的习惯。他们可以简单地在特定期限之前给孩子一定数量的阅读时间，如果他们成功了就给他们现金奖励在允许的时间内完成任务。这将使他们保持积极性并养成努力完成任务的习惯。',
     '与通常的阅读方式相比，这种阅读方式有什么缺点？',
@@ -184,8 +178,6 @@ export const chat = {
     'Quelles hormones sont impliquées et comment elles aident.',
     "Plusieurs hormones seront activées lors de l'utilisation de l'application BookJack. Principalement le cortisol, l'hormone du stress, qui aide le corps à faire face à la pression et au stress. Il abaisse la tension artérielle et calme le système nerveux. Les endorphines peuvent également aider l'utilisateur de l'application à définir un objectif et l'atteindre grâce à une envie accrue de succès.Ces hormones peuvent aider une personne dans le processus d'utilisation de l'application.",
 
-    "Comment expliquer l'utilité de BookJack d'un point de vue économique ?",
-    "Dans l'application BookJack, une personne fait un investissement, risquant son argent en échange de la possibilité de réaliser un gros profit dans le futur. S'il ne respecte pas le délai, il perd son argent. Ceci est un exemple d'investissement risqué dans lequel l'investisseur peut réaliser des rendements tangibles, mais en cas d'échec, il peut tout perdre. Habituellement, un tel véhicule d'investissement offre de bonnes opportunités de revenus et apporte certains avantages à l'économie.",
     'Comment les parents peuvent-ils inciter leurs enfants à utiliser cette application ?',
     "Les parents peuvent utiliser l'application BookJack pour aider leurs enfants à développer la motivation et l'habitude de travailler constamment sur certaines tâches. Ils peuvent simplement donner à leur enfant un nombre défini d'heures de lecture avant une certaine date limite et leur donner un prix en espèces s'ils réussissent. terminer la tâche dans le temps imparti. .Cela les gardera motivés et leur donnera l'habitude de travailler dur sur leurs tâches.",
     'Quels sont les inconvénients de cette manière de lire, par rapport à la manière habituelle ?',
@@ -207,8 +199,6 @@ export const chat = {
     'Welche Hormone sind beteiligt und wie helfen sie.',
     'Es gibt mehrere Hormone, die bei der Nutzung der BookJack-App aktiviert werden. In erster Linie das Stresshormon Cortisol, das dem Körper hilft, mit Druck und Stress fertig zu werden. Es senkt den Blutdruck und beruhigt das Nervensystem Ziel erreichen und erreichen. Durch ein gesteigertes Verlangen nach Erfolg. Diese Hormone können einer Person bei der Nutzung der App helfen.',
 
-    'Wie lässt sich der Nutzen von BookJack aus wirtschaftlicher Sicht erklären?',
-    'In der BookJack-Anwendung tätigt eine Person eine Investition und riskiert ihr Geld im Austausch für die Möglichkeit, in der Zukunft einen großen Gewinn zu erzielen. Wenn sie die Frist nicht einhält, verliert sie ihr Geld. Dies ist ein Beispiel für eine riskante Investition bei der der Investor zwar greifbare Renditen erzielen kann, aber im Falle eines Scheiterns alles verlieren kann. In der Regel bietet ein solches Anlagevehikel gute Verdienstmöglichkeiten und bringt gewisse Vorteile für die Wirtschaft.',
     'Wie können Eltern ihre Kinder dazu bringen, diese App zu verwenden?',
     'Eltern können die BookJack-App nutzen, um ihren Kindern zu helfen, die Motivation und die Gewohnheit zu entwickeln, ständig an bestimmten Aufgaben zu arbeiten. Sie können ihrem Kind einfach eine festgelegte Anzahl von Lesestunden bis zu einer bestimmten Frist geben und ihm bei Erfolg einen Geldpreis geben Erledigen Sie die Aufgabe innerhalb der vorgegebenen Zeit. . Dadurch bleiben sie motiviert und gewöhnen sich daran, hart an ihren Aufgaben zu arbeiten.',
     'Welche Nachteile hat diese Art des Lesens gegenüber der üblichen Art?',
@@ -230,8 +220,6 @@ export const chat = {
     'Quali ormoni sono coinvolti e come aiutano.',
     "Ci sono diversi ormoni che verranno attivati ​​quando si utilizza l'app BookJack. Principalmente l'ormone dello stress cortisolo, che aiuta il corpo a far fronte alla pressione e allo stress. Abbassa la pressione sanguigna e calma il sistema nervoso. Le endorfine possono anche aiutare l'utente dell'app a impostare un obiettivo e raggiungerlo.attraverso una maggiore brama di successo.Questi ormoni possono aiutare una persona nel processo di utilizzo dell'app.",
 
-    "Come si spiega l'utilità di BookJack dal punto di vista economico?",
-    "Nell'applicazione BookJack, una persona fa un investimento, rischiando i suoi soldi in cambio dell'opportunità di realizzare un grande profitto in futuro. Se non rispetta la scadenza, perde i suoi soldi. Questo è un esempio di investimento rischioso in cui l'investitore può realizzare rendimenti tangibili, ma in caso di fallimento può perdere tutto. Di solito, un tale veicolo di investimento offre buone opportunità di guadagno e apporta alcuni benefici all'economia.",
     'Come possono i genitori convincere i propri figli a usare questa app?',
     "I genitori possono utilizzare l'app BookJack per aiutare i propri figli a sviluppare la motivazione e l'abitudine a lavorare costantemente su determinati compiti. Possono semplicemente concedere al proprio figlio un determinato numero di ore di lettura entro una certa scadenza e dare loro un premio in denaro se riescono con successo completare il compito entro il tempo concesso. Questo li manterrà motivati ​​e abituati a lavorare sodo sui loro compiti.",
     'Quali sono gli svantaggi di questo modo di leggere, rispetto al solito modo?',
@@ -253,8 +241,6 @@ export const chat = {
     '¿Qué hormonas están involucradas y cómo ayudan?',
     'Hay varias hormonas que se activarán al usar la aplicación BookJack. Principalmente, la hormona del estrés cortisol, que ayuda al cuerpo a lidiar con la presión y el estrés. Disminuye la presión arterial y calma el sistema nervioso. Las endorfinas también pueden ayudar al usuario de la aplicación a establecer un objetivo y lograrlo a través de un mayor deseo de éxito. Estas hormonas pueden ayudar a una persona en el proceso de usar la aplicación',
 
-    '¿Cómo se puede explicar la utilidad de BookJack desde un punto de vista económico?',
-    'En la aplicación BookJack, una persona realiza una inversión, arriesgando su dinero a cambio de la oportunidad de obtener una gran ganancia en el futuro. Si no cumple con la fecha límite, pierde su dinero. Este es un ejemplo de una inversión arriesgada en el que el inversor puede obtener rendimientos tangibles, pero en caso de fracaso, puede perderlo todo. Por lo general, dicho vehículo de inversión brinda buenas oportunidades de ganancias y brinda ciertos beneficios a la economía',
     '¿Cómo pueden los padres lograr que sus hijos usen esta aplicación?',
     'Los padres pueden usar la aplicación BookJack para ayudar a sus hijos a desarrollar la motivación y el hábito de trabajar constantemente en ciertas tareas. Simplemente pueden darle a su hijo una cantidad determinada de horas de lectura antes de una fecha límite determinada y darle un premio en efectivo si puede hacerlo con éxito. completar la tarea dentro del tiempo permitido. .Esto los mantendrá motivados y con el hábito de trabajar duro en sus tareas',
     '¿Cuáles son las desventajas de esta forma de leer, en comparación con la forma habitual?',
@@ -276,8 +262,6 @@ export const chat = {
     'どのようなホルモンが関与し、どのように役立つか。',
     'BookJack アプリを使用すると、活性化されるホルモンがいくつかあります。主にストレス ホルモンであるコルチゾールは、体が圧力やストレスに対処するのを助けます。血圧を下げ、神経系を落ち着かせます。エンドルフィンは、アプリのユーザーが目標と達成. 成功への欲求の高まりを通じて. これらのホルモンは、アプリを使用する過程で人を助けることができます.',
 
-    'BookJack の有用性は、経済的な観点からどのように説明できますか?',
-    'BookJack アプリケーションでは、人は投資を行い、将来大きな利益を得る機会と引き換えに自分のお金を危険にさらします。期限に間に合わなければ、お金を失います。これは危険な投資の例です。投資家は具体的なリターンを得ることができますが、失敗した場合、すべてを失う可能性があります.通常、そのような投資ビークルは良い収益機会を提供し、経済に一定の利益をもたらします.',
     '親はどうすれば子供にこのアプリを使わせることができますか?',
     '親はBookJackアプリを使用して、子供がやる気を起こさせ、特定のタスクに常に取り組む習慣を身に付けるのを助けることができます.彼らは単に子供に特定の締め切りまでに設定された時間の読書を与え、成功した場合に賞金を与えることができます.与えられた時間内にタスクを完了します.これにより、彼らのモチベーションが維持され、タスクに一生懸命取り組む習慣が身に付きます.',
     '通常の読み方と比べて、この読み方の欠点は何ですか？',
@@ -299,8 +283,6 @@ export const chat = {
     '어떤 호르몬이 관련되어 있고 어떻게 도움이 되는지.',
     'BookJack 앱을 사용할 때 활성화되는 여러 호르몬이 있습니다. 주로 신체가 압력과 스트레스에 대처하는 데 도움이 되는 스트레스 호르몬인 코르티솔입니다. 혈압을 낮추고 신경계를 진정시킵니다. 엔돌핀은 또한 앱 사용자가 성공에 대한 갈망 증가를 통해 목표를 달성하고 달성하십시오. 이러한 호르몬은 앱을 사용하는 과정에서 사람을 도울 수 있습니다.',
 
-    '경제적 관점에서 북잭의 유용성을 어떻게 설명할 수 있을까요?',
-    'BookJack 애플리케이션에서 사람은 미래에 큰 이익을 얻을 수 있는 기회를 얻기 위해 자신의 돈을 걸고 투자를 합니다. 마감일을 지키지 않으면 돈을 잃게 됩니다. 이것은 위험한 투자의 예입니다. 투자자는 실질적인 수익을 올릴 수 있지만 실패할 경우 모든 것을 잃을 수 있습니다. 일반적으로 이러한 투자 수단은 좋은 수익 기회를 제공하고 경제에 특정 혜택을 제공합니다.',
     '부모가 자녀가 이 앱을 사용하도록 하려면 어떻게 해야 합니까?',
     '부모는 BookJack 앱을 사용하여 자녀가 특정 작업을 지속적으로 수행하는 동기와 습관을 개발하도록 도울 수 있습니다. 자녀에게 특정 마감일까지 정해진 시간 동안 독서를 제공하고 성공적으로 읽을 수 있는 경우 상금을 주기만 하면 됩니다. 허용된 시간 내에 작업을 완료합니다. .이렇게 하면 동기 부여가 유지되고 작업에 열심히 노력하는 습관이 생깁니다.',
     '일반적인 방법과 비교하여 이러한 읽기 방법의 단점은 무엇입니까?',
@@ -322,8 +304,6 @@ export const chat = {
     'ما الهرمونات المعنية وكيف تساعد.',
     'هناك العديد من الهرمونات التي سيتم تنشيطها عند استخدام تطبيق BookJack. في المقام الأول ، هرمون الإجهاد الكورتيزول ، الذي يساعد الجسم على التعامل مع الضغط والتوتر. كما أنه يخفض ضغط الدم ويهدئ الجهاز العصبي. ويمكن للإندورفين أيضًا أن يساعد مستخدم التطبيق على تعيين الهدف وتحقيقه. من خلال الرغبة المتزايدة في النجاح. يمكن أن تساعد هذه الهرمونات الشخص في عملية استخدام التطبيق. ',
 
-    'كيف يمكن تفسير فائدة BookJack من وجهة نظر اقتصادية؟',
-    'في تطبيق BookJack ، يقوم الشخص باستثمار ، ويخاطر بأمواله مقابل فرصة تحقيق ربح كبير في المستقبل. إذا لم يلتزم بالموعد النهائي ، فإنه يخسر أمواله. هذا مثال على استثمار محفوف بالمخاطر حيث يمكن للمستثمر تحقيق عوائد ملموسة ، ولكن في حالة الفشل ، يمكن أن يخسر كل شيء. عادةً ، توفر هذه الأداة الاستثمارية فرصًا جيدة للكسب وتجلب فوائد معينة للاقتصاد. ',
     'كيف يمكن للآباء حث أطفالهم على استخدام هذا التطبيق؟',
     'يمكن للوالدين استخدام تطبيق BookJack لمساعدة أطفالهم على تنمية الحافز وعادات العمل باستمرار في مهام معينة. يمكنهم ببساطة منح أطفالهم عددًا محددًا من ساعات القراءة بحلول موعد نهائي معين ومنحهم جائزة نقدية إذا تمكنوا من ذلك بنجاح أكمل المهمة في الوقت المسموح به. وهذا سيبقيهم متحفزين ويعودون على العمل الجاد في مهامهم. ',
     'ما هي عيوب هذه الطريقة في القراءة مقارنة بالطريقة المعتادة؟',
@@ -345,8 +325,6 @@ export const chat = {
     'אילו הורמונים מעורבים וכיצד הם עוזרים.',
     'ישנם מספר הורמונים שיופעלו בשימוש באפליקציית BookJack. בעיקר הורמון הסטרס קורטיזול, שעוזר לגוף להתמודד עם לחץ ולחץ. הוא מוריד לחץ דם ומרגיע את מערכת העצבים. אנדורפינים יכולים גם לעזור למשתמש באפליקציה להגדיר מטרה ולהשיג אותה. באמצעות השתוקקות מוגברת להצלחה. ההורמונים הללו יכולים לעזור לאדם בתהליך השימוש באפליקציה.',
 
-    'כיצד ניתן להסביר את התועלת של BookJack מנקודת מבט כלכלית?',
-    'באפליקציית BookJack אדם מבצע השקעה, ומסכן את כספו בתמורה להזדמנות להרוויח גדול בעתיד. אם הוא לא עומד בדדליין, הוא מפסיד את כספו. זו דוגמה להשקעה מסוכנת. שבהן המשקיע יכול להניב תשואות מוחשיות, אך במקרה של כישלון, הוא יכול להפסיד הכל. בדרך כלל, כלי השקעה כזה מספק הזדמנויות השתכרות טובות ומביא יתרונות מסוימים למשק.',
     'איך הורים יכולים לגרום לילדים שלהם להשתמש באפליקציה הזו?',
     'הורים יכולים להשתמש באפליקציית BookJack כדי לעזור לילדיהם לפתח מוטיבציה והרגל לעבוד כל הזמן על משימות מסוימות. הם יכולים פשוט לתת לילדם מספר מוגדר של שעות קריאה עד תאריך יעד מסוים ולתת להם פרס כספי אם הם מצליחים בהצלחה להשלים את המשימה בזמן המותר. זה ישמור עליהם מוטיבציה ולהרגל לעבוד קשה על המשימות שלהם.',
     'מהם החסרונות של דרך הקריאה הזו, בהשוואה לדרך הרגילה?',
