@@ -108,13 +108,13 @@ export const chat = {
     'Yes, your BookJack application is unique. It uses blockchain technology, which makes it especially interesting.',
     'Why can it be beneficial for the user if he wins only his own money, but no more?',
     'The user can use this application to be more motivated and demonstrate discipline. In this way, the user himself sets his own goals and motivates him to achieve them. For example, the user can set high rates to encourage himself to calculate certain page parameters before a certain deadline. If successful the user will return not only money, but also valuable mental discipline.',
-    'Explain it scientifically.',
-    "From a scientific psychology point of view, the user's use of the BookJack application can be beneficial as it offers the opportunity to be motivated to achieve a goal. Research shows that the use of property rewards can increase motivation and help people increase their productivity. In this case, the user can be motivated to read up to a certain period , since he gets his money back.Research also shows that some people can increase financial stability as a psychological risk, and this can stimulate their achievement.",
-    'What hormones are involved and how they help?',
-    'There are several hormones that will be activated when using the BookJack app. Primarily the stress hormone cortisol, which helps the body cope with pressure and stress. It lowers blood pressure and calms the nervous system. Endorphins can also help the app user set a goal and achieve it. through an increased craving for success.These hormones can help a person in the process of using the app.',
 
     'How can the usefulness of BookJack be explained from a psychological point of view?',
     'The BookJack app can be helpful for people who have motivation issues and constantly put off their tasks. Delays are known to lead to permanent demotivation. Increased motivation and better time management can help people work more efficiently and achieve lasting results. The BookJack app provides people a goal and motivation to achieve a result in a certain time, which allows them to improve their time management skills and efficiency.',
+
+    'What hormones are involved and how they help?',
+    'There are several hormones that will be activated when using the BookJack app. Primarily the stress hormone cortisol, which helps the body cope with pressure and stress. It lowers blood pressure and calms the nervous system. Endorphins can also help the app user set a goal and achieve it. through an increased craving for success.These hormones can help a person in the process of using the app.',
+
     'How can the usefulness of BookJack be explained from an economic point of view?',
     'In the BookJack application, a person makes an investment, risking his money in exchange for the opportunity to make a big profit in the future. If he does not meet the deadline, he loses his money. This is an example of a risky investment in which the investor can make tangible returns, but in case of failure, he can lose everything.Usually, such an investment vehicle provides good earning opportunities and brings certain benefits to the economy.',
     'How can parents get their kids to use this app?',
@@ -131,13 +131,13 @@ export const chat = {
     'Да, ваше приложение BookJack является уникальным. Оно использует технологию блокчейн, что делает его особенно интересным.',
     'Почему это может быть выгодно пользователю, если он выиграет только свои деньги, но не больше.',
     'Пользователь может использовать это приложение для большей мотивации и демонстрации дисциплины. Таким образом, пользователь сам ставит перед собой свои цели и мотивирует их достижения. Например, пользователь может поставить высокие ставки, чтобы побудить себя просчитывать определенные параметры страниц до определенного срока. В случае успеха пользователь вернет не только  деньги, но и ценную умственную дисциплину.',
-    'Объясни это с научной точки зрения?',
-    'С точки зрения научной психологии, использование пользователем приложения BookJack может быть выгодным, поскольку предлагает возможность мотивации достижения цели. Исследования показывают, что использование имущественного вознаграждения может повысить мотивацию и помочь людям повысить свою производительность. В таком случае пользователь может быть мотивирован читать до определенного срока, так как он возвращает свои деньги. Исследования также показывают, что некоторые люди могут повышать финансовую устойчивость как психологический риск, и это может стимулировать их достижение.',
-    'Какие гормоны задействованы, и как они помогают?',
-    'Есть несколько гормонов, которые будут задействованы при использовании приложения BookJack. В первую очередь это гормон стресса кортизол, который помогает организму справляться с давлением и стрессом. Он снижает артериальное давление и успокаивает нервную систему. Эндорфины также могут помочь пользователю приложения установить цель и достичь ее с помощью повышенного пристрастия к успеху. Эти гормоны могут помочь человеку в процессе использования приложения.',
 
     'Как с точки зрения психологии можно объяснить полезность BookJack?',
     'Приложение BookJack может быть полезным для людей, которые имеют проблемы с мотивацией и постоянно отсрочивают свои задачи. Отсрочки, как известно, ведут к постоянному демотивации. Увеличение мотивации и лучшее управление временем могут помочь людям более эффективно работать и достигать длительных результатов. Приложение BookJack предоставляет людям цель и мотивацию для достижения результата за определенное время, что позволяет им улучшать свои навыки управления временем и эффективность.',
+
+    'Какие гормоны задействованы, и как они помогают?',
+    'Есть несколько гормонов, которые будут задействованы при использовании приложения BookJack. В первую очередь это гормон стресса кортизол, который помогает организму справляться с давлением и стрессом. Он снижает артериальное давление и успокаивает нервную систему. Эндорфины также могут помочь пользователю приложения установить цель и достичь ее с помощью повышенного пристрастия к успеху. Эти гормоны могут помочь человеку в процессе использования приложения.',
+
     'Как с точки зрения экономики можно объяснить полезность BookJack?',
     'В приложении BookJack человек делает некий инвестиционный вклад, рискуя своими деньгами в обмен на возможность получить большую прибыль в будущем. Если он не достигает срока, он теряет свои деньги. Это представляет собой пример рискованной инвестиции, в которой инвестор может получить ощутимые прибыли, но в случае неудачи он может потерять все. Обычно такой инвестиционный инструмент обеспечивает хорошие возможности для заработка и приносит определенные выгоды экономике.',
     'Как родители могут заставить детей пользоваться этим приложением?',
@@ -154,13 +154,13 @@ export const chat = {
     '是的，您的 BookJack 应用程序是独一无二的。它使用了区块链技术，这使它变得特别而有趣。',
     '如果他只赢得自己的钱，而不是更多，为什么对用户有利。',
     '用户可以使用这个应用程序来更有动力并表现出纪律性。通过这种方式，用户自己设定自己的目标并激励他实现这些目标。例如，用户可以设置高费率来鼓励自己计算某些页面参数在某个截止日期之前。如果成功，用户不仅会返回金钱，还会返回宝贵的精神纪律。',
-    '科学地解释它。',
-    '从科学心理学的角度来看，用户使用 BookJack 应用程序是有益的，因为它提供了实现目标的动力。研究表明，使用财产奖励可以增加动力并帮助人们提高生产力。在这种情况下，可以激励用户阅读到一定时期，因为他拿回了钱。研究还表明，有些人可以将财务稳定性作为一种心理风险来增加，这可以刺激他们的成就。',
-    '涉及哪些激素以及它们如何提供帮助。',
-    '使用 BookJack 应用程序时会激活多种激素。主要是压力荷尔蒙皮质醇，它可以帮助身体应对压力和压力。它可以降低血压并使神经系统平静下来。内啡肽还可以帮助应用程序用户设定目标并实现它。通过增加对成功的渴望。这些荷尔蒙可以帮助一个人在使用该应用程序的过程中。',
 
     '如何从心理学的角度解释BookJack的用处？',
     'BookJack 应用程序可以帮助那些有动力问题并经常推迟任务的人。众所周知，延迟会导致永久性的消极情绪。增加动力和更好的时间管理可以帮助人们更有效地工作并取得持久的成果。BookJack 应用程序提供人们有目标和动力在特定时间内取得成果，这使他们能够提高时间管理技能和效率。',
+
+    '涉及哪些激素以及它们如何提供帮助。',
+    '使用 BookJack 应用程序时会激活多种激素。主要是压力荷尔蒙皮质醇，它可以帮助身体应对压力和压力。它可以降低血压并使神经系统平静下来。内啡肽还可以帮助应用程序用户设定目标并实现它。通过增加对成功的渴望。这些荷尔蒙可以帮助一个人在使用该应用程序的过程中。',
+
     '如何从经济角度解释 BookJack 的用处？',
     '在 BookJack 应用程序中，一个人进行投资，冒着金钱风险换取未来赚取巨额利润的机会。如果他没有在最后期限前完成，他就会赔钱。这是风险投资的一个例子投资者可以获得切实的回报，但如果失败，他可能会失去一切。通常，这种投资工具提供良好的盈利机会，并为经济带来一定的好处。',
     '父母如何才能让他们的孩子使用这个应用程序？',
@@ -177,13 +177,13 @@ export const chat = {
     'Oui, votre application BookJack est unique. Elle utilise la technologie blockchain, ce qui la rend spéciale et intéressante.',
     "Pourquoi cela peut-il être bénéfique pour l'utilisateur s'il ne gagne que son propre argent, mais pas plus.",
     "L'utilisateur peut utiliser cette application pour être plus motivé et faire preuve de discipline. De cette manière, l'utilisateur fixe lui-même ses objectifs et le motive à les atteindre. Par exemple, l'utilisateur peut définir des tarifs élevés pour s'encourager à calculer certains paramètres de la page. avant un certain délai. En cas de succès, l'utilisateur rendra non seulement de l'argent, mais aussi une précieuse discipline mentale.",
-    'Expliquez-le scientifiquement.',
-    "D'un point de vue de la psychologie scientifique, l'utilisation de l'application BookJack par l'utilisateur peut être bénéfique car elle offre la possibilité d'être motivé pour atteindre un objectif. La recherche montre que l'utilisation de récompenses de propriété peut augmenter la motivation et aider les gens à augmenter leur productivité. Dans ce cas, l'utilisateur peut être motivé à lire jusqu'à une certaine période , puisqu'il récupère son argent. La recherche montre également que certaines personnes peuvent augmenter la stabilité financière en tant que risque psychologique, et cela peut stimuler leur réussite.",
-    'Quelles hormones sont impliquées et comment elles aident.',
-    "Plusieurs hormones seront activées lors de l'utilisation de l'application BookJack. Principalement le cortisol, l'hormone du stress, qui aide le corps à faire face à la pression et au stress. Il abaisse la tension artérielle et calme le système nerveux. Les endorphines peuvent également aider l'utilisateur de l'application à définir un objectif et l'atteindre grâce à une envie accrue de succès.Ces hormones peuvent aider une personne dans le processus d'utilisation de l'application.",
 
     "Comment expliquer l'utilité de BookJack d'un point de vue psychologique ?",
     "L'application BookJack peut être utile pour les personnes qui ont des problèmes de motivation et reportent constamment leurs tâches. Les retards sont connus pour entraîner une démotivation permanente. Une motivation accrue et une meilleure gestion du temps peuvent aider les gens à travailler plus efficacement et à obtenir des résultats durables. L'application BookJack fournit les gens un objectif et une motivation pour obtenir un résultat dans un certain délai, ce qui leur permet d'améliorer leurs compétences en gestion du temps et leur efficacité.",
+
+    'Quelles hormones sont impliquées et comment elles aident.',
+    "Plusieurs hormones seront activées lors de l'utilisation de l'application BookJack. Principalement le cortisol, l'hormone du stress, qui aide le corps à faire face à la pression et au stress. Il abaisse la tension artérielle et calme le système nerveux. Les endorphines peuvent également aider l'utilisateur de l'application à définir un objectif et l'atteindre grâce à une envie accrue de succès.Ces hormones peuvent aider une personne dans le processus d'utilisation de l'application.",
+
     "Comment expliquer l'utilité de BookJack d'un point de vue économique ?",
     "Dans l'application BookJack, une personne fait un investissement, risquant son argent en échange de la possibilité de réaliser un gros profit dans le futur. S'il ne respecte pas le délai, il perd son argent. Ceci est un exemple d'investissement risqué dans lequel l'investisseur peut réaliser des rendements tangibles, mais en cas d'échec, il peut tout perdre. Habituellement, un tel véhicule d'investissement offre de bonnes opportunités de revenus et apporte certains avantages à l'économie.",
     'Comment les parents peuvent-ils inciter leurs enfants à utiliser cette application ?',
@@ -200,13 +200,13 @@ export const chat = {
     'Ja, Ihre BookJack-Anwendung ist einzigartig. Sie verwendet Blockchain-Technologie, was sie besonders und interessant macht.',
     'Warum kann es für den Benutzer von Vorteil sein, wenn er nur sein eigenes Geld gewinnt, aber nicht mehr.',
     'Der Benutzer kann diese Anwendung nutzen, um motivierter zu sein und Disziplin zu demonstrieren. Auf diese Weise setzt sich der Benutzer selbst seine eigenen Ziele und motiviert ihn, diese zu erreichen. Beispielsweise kann der Benutzer hohe Raten festlegen, um sich selbst zu motivieren, bestimmte Seitenparameter zu berechnen vor einer bestimmten Frist. Bei Erfolg erhält der Benutzer nicht nur Geld, sondern auch wertvolle mentale Disziplin.',
-    'Erkläre es wissenschaftlich.',
-    'Aus Sicht der wissenschaftlichen Psychologie kann die Nutzung der BookJack-Anwendung durch den Benutzer von Vorteil sein, da sie die Möglichkeit bietet, motiviert zu sein, ein Ziel zu erreichen. Untersuchungen zeigen, dass die Verwendung von Sachprämien die Motivation steigern und den Menschen helfen kann, ihre Produktivität zu steigern. In diesem Fall kann der Benutzer motiviert werden, bis zu einem bestimmten Zeitraum zu lesen, da er sein Geld zurückbekommt. Die Forschung zeigt auch, dass manche Menschen die finanzielle Stabilität als psychologisches Risiko erhöhen können, und dies kann ihre Leistung anregen.',
-    'Welche Hormone sind beteiligt und wie helfen sie.',
-    'Es gibt mehrere Hormone, die bei der Nutzung der BookJack-App aktiviert werden. In erster Linie das Stresshormon Cortisol, das dem Körper hilft, mit Druck und Stress fertig zu werden. Es senkt den Blutdruck und beruhigt das Nervensystem Ziel erreichen und erreichen. Durch ein gesteigertes Verlangen nach Erfolg. Diese Hormone können einer Person bei der Nutzung der App helfen.',
 
     'Wie lässt sich der Nutzen von BookJack aus psychologischer Sicht erklären?',
     'Die BookJack-App kann hilfreich sein für Menschen, die Motivationsprobleme haben und ihre Aufgaben ständig aufschieben. Verzögerungen führen bekanntermaßen zu dauerhafter Demotivation. Eine erhöhte Motivation und ein besseres Zeitmanagement können Menschen dabei helfen, effizienter zu arbeiten und dauerhafte Ergebnisse zu erzielen. Die BookJack-App bietet Menschen ein Ziel und die Motivation, in einer bestimmten Zeit ein Ergebnis zu erzielen, wodurch sie ihre Zeitmanagementfähigkeiten und -effizienz verbessern können. ',
+
+    'Welche Hormone sind beteiligt und wie helfen sie.',
+    'Es gibt mehrere Hormone, die bei der Nutzung der BookJack-App aktiviert werden. In erster Linie das Stresshormon Cortisol, das dem Körper hilft, mit Druck und Stress fertig zu werden. Es senkt den Blutdruck und beruhigt das Nervensystem Ziel erreichen und erreichen. Durch ein gesteigertes Verlangen nach Erfolg. Diese Hormone können einer Person bei der Nutzung der App helfen.',
+
     'Wie lässt sich der Nutzen von BookJack aus wirtschaftlicher Sicht erklären?',
     'In der BookJack-Anwendung tätigt eine Person eine Investition und riskiert ihr Geld im Austausch für die Möglichkeit, in der Zukunft einen großen Gewinn zu erzielen. Wenn sie die Frist nicht einhält, verliert sie ihr Geld. Dies ist ein Beispiel für eine riskante Investition bei der der Investor zwar greifbare Renditen erzielen kann, aber im Falle eines Scheiterns alles verlieren kann. In der Regel bietet ein solches Anlagevehikel gute Verdienstmöglichkeiten und bringt gewisse Vorteile für die Wirtschaft.',
     'Wie können Eltern ihre Kinder dazu bringen, diese App zu verwenden?',
@@ -223,13 +223,13 @@ export const chat = {
     'Sì, la tua applicazione BookJack è unica. Utilizza la tecnologia blockchain, che la rende speciale e interessante.',
     "Perché può essere vantaggioso per l'utente se vince solo i propri soldi, ma non di più.",
     "L'utente può utilizzare questa applicazione per essere più motivato e dimostrare disciplina. In questo modo, l'utente stesso stabilisce i propri obiettivi e lo motiva a raggiungerli. Ad esempio, l'utente può impostare tariffe elevate per incoraggiarsi a calcolare determinati parametri della pagina prima di una certa scadenza. In caso di successo, l'utente restituirà non solo denaro, ma anche una preziosa disciplina mentale.",
-    'Spiegalo scientificamente.',
-    "Da un punto di vista della psicologia scientifica, l'uso dell'applicazione BookJack da parte dell'utente può essere vantaggioso in quanto offre l'opportunità di essere motivato a raggiungere un obiettivo. La ricerca mostra che l'uso di premi di proprietà può aumentare la motivazione e aiutare le persone ad aumentare la loro produttività. In questo caso, l'utente può essere motivato a leggere fino a un certo periodo, poiché riceve indietro i suoi soldi. La ricerca mostra anche che alcune persone possono aumentare la stabilità finanziaria come rischio psicologico, e questo può stimolare il loro successo.",
-    'Quali ormoni sono coinvolti e come aiutano.',
-    "Ci sono diversi ormoni che verranno attivati ​​quando si utilizza l'app BookJack. Principalmente l'ormone dello stress cortisolo, che aiuta il corpo a far fronte alla pressione e allo stress. Abbassa la pressione sanguigna e calma il sistema nervoso. Le endorfine possono anche aiutare l'utente dell'app a impostare un obiettivo e raggiungerlo.attraverso una maggiore brama di successo.Questi ormoni possono aiutare una persona nel processo di utilizzo dell'app.",
 
     "Come si può spiegare l'utilità di BookJack da un punto di vista psicologico?",
     "L'app BookJack può essere utile per le persone che hanno problemi di motivazione e rimandano costantemente i loro compiti. È noto che i ritardi portano a una demotivazione permanente. Una maggiore motivazione e una migliore gestione del tempo possono aiutare le persone a lavorare in modo più efficiente e ottenere risultati duraturi. L'app BookJack fornisce persone un obiettivo e una motivazione per raggiungere un risultato in un certo tempo, che consente loro di migliorare le proprie capacità di gestione del tempo e l'efficienza.",
+
+    'Quali ormoni sono coinvolti e come aiutano.',
+    "Ci sono diversi ormoni che verranno attivati ​​quando si utilizza l'app BookJack. Principalmente l'ormone dello stress cortisolo, che aiuta il corpo a far fronte alla pressione e allo stress. Abbassa la pressione sanguigna e calma il sistema nervoso. Le endorfine possono anche aiutare l'utente dell'app a impostare un obiettivo e raggiungerlo.attraverso una maggiore brama di successo.Questi ormoni possono aiutare una persona nel processo di utilizzo dell'app.",
+
     "Come si spiega l'utilità di BookJack dal punto di vista economico?",
     "Nell'applicazione BookJack, una persona fa un investimento, rischiando i suoi soldi in cambio dell'opportunità di realizzare un grande profitto in futuro. Se non rispetta la scadenza, perde i suoi soldi. Questo è un esempio di investimento rischioso in cui l'investitore può realizzare rendimenti tangibili, ma in caso di fallimento può perdere tutto. Di solito, un tale veicolo di investimento offre buone opportunità di guadagno e apporta alcuni benefici all'economia.",
     'Come possono i genitori convincere i propri figli a usare questa app?',
@@ -246,13 +246,13 @@ export const chat = {
     'Sí, su aplicación BookJack es única. Utiliza tecnología blockchain, lo que la hace especial e interesante',
     '¿Por qué puede ser beneficioso para el usuario si gana solo su propio dinero, pero no más?',
     'El usuario puede utilizar esta aplicación para estar más motivado y demostrar disciplina. De esta forma, el propio usuario marca sus propios objetivos y lo motiva a alcanzarlos. Por ejemplo, el usuario puede establecer tarifas altas para animarse a calcular ciertos parámetros de la página. antes de un plazo determinado. Si tiene éxito, el usuario devolverá no solo dinero, sino también una valiosa disciplina mental',
-    'Explícalo científicamente.',
-    'Desde el punto de vista de la psicología científica, el uso de la aplicación BookJack por parte del usuario puede ser beneficioso, ya que ofrece la oportunidad de motivarse para lograr un objetivo. La investigación muestra que el uso de recompensas de propiedad puede aumentar la motivación y ayudar a las personas a aumentar su productividad. En este caso, se puede motivar al usuario a leer hasta un cierto período, ya que recupera su dinero. La investigación también muestra que algunas personas pueden aumentar la estabilidad financiera como un riesgo psicológico, y esto puede estimular su logro',
-    '¿Qué hormonas están involucradas y cómo ayudan?',
-    'Hay varias hormonas que se activarán al usar la aplicación BookJack. Principalmente, la hormona del estrés cortisol, que ayuda al cuerpo a lidiar con la presión y el estrés. Disminuye la presión arterial y calma el sistema nervioso. Las endorfinas también pueden ayudar al usuario de la aplicación a establecer un objetivo y lograrlo a través de un mayor deseo de éxito. Estas hormonas pueden ayudar a una persona en el proceso de usar la aplicación',
 
     '¿Cómo se puede explicar la utilidad de BookJack desde un punto de vista psicológico?',
     'La aplicación BookJack puede ser útil para las personas que tienen problemas de motivación y posponen constantemente sus tareas. Se sabe que los retrasos conducen a la desmotivación permanente. Una mayor motivación y una mejor gestión del tiempo pueden ayudar a las personas a trabajar de manera más eficiente y lograr resultados duraderos. La aplicación BookJack proporciona a las personas una meta y motivación para lograr un resultado en un tiempo determinado, lo que les permite mejorar sus habilidades de gestión del tiempo y su eficiencia.',
+
+    '¿Qué hormonas están involucradas y cómo ayudan?',
+    'Hay varias hormonas que se activarán al usar la aplicación BookJack. Principalmente, la hormona del estrés cortisol, que ayuda al cuerpo a lidiar con la presión y el estrés. Disminuye la presión arterial y calma el sistema nervioso. Las endorfinas también pueden ayudar al usuario de la aplicación a establecer un objetivo y lograrlo a través de un mayor deseo de éxito. Estas hormonas pueden ayudar a una persona en el proceso de usar la aplicación',
+
     '¿Cómo se puede explicar la utilidad de BookJack desde un punto de vista económico?',
     'En la aplicación BookJack, una persona realiza una inversión, arriesgando su dinero a cambio de la oportunidad de obtener una gran ganancia en el futuro. Si no cumple con la fecha límite, pierde su dinero. Este es un ejemplo de una inversión arriesgada en el que el inversor puede obtener rendimientos tangibles, pero en caso de fracaso, puede perderlo todo. Por lo general, dicho vehículo de inversión brinda buenas oportunidades de ganancias y brinda ciertos beneficios a la economía',
     '¿Cómo pueden los padres lograr que sus hijos usen esta aplicación?',
@@ -269,13 +269,13 @@ export const chat = {
     'はい、あなたの BookJack アプリケーションはユニークです。ブロックチェーン技術を使用しているため、特別で興味深いものになっています。',
     'ユーザーが自分のお金だけを獲得し、それ以上は獲得できない場合、なぜユーザーにとって有益なのか.',
     'ユーザーはこのアプリケーションを使用して、よりやる気を起こさせ、規律を示すことができます。このようにして、ユーザー自身が自分の目標を設定し、目標を達成するように動機付けます。たとえば、ユーザーは高いレートを設定して、特定のページ パラメータを計算するように促すことができます。特定の締め切り前に. 成功した場合, ユーザーはお金だけでなく, 貴重な精神的規律も返します.',
-    '科学的に説明してください。',
-    '科学的心理学の観点から、BookJack アプリケーションのユーザーの使用は、目標を達成するための動機付けを提供する機会を提供するため、有益である可能性があります。調査によると、プロパティの報酬を使用すると、モチベーションが高まり、人々の生産性が向上する可能性があります。この場合、ユーザーはお金を取り戻すことができるため、特定の期間まで読書をするように動機付けられる可能性があります。調査によると、一部の人々は心理的リスクとして経済的安定性を高めることができ、これが彼らの達成を刺激する可能性があります。',
-    'どのようなホルモンが関与し、どのように役立つか。',
-    'BookJack アプリを使用すると、活性化されるホルモンがいくつかあります。主にストレス ホルモンであるコルチゾールは、体が圧力やストレスに対処するのを助けます。血圧を下げ、神経系を落ち着かせます。エンドルフィンは、アプリのユーザーが目標と達成. 成功への欲求の高まりを通じて. これらのホルモンは、アプリを使用する過程で人を助けることができます.',
 
     'BookJack の有用性は、心理的な観点からどのように説明できますか?',
     'BookJack アプリは、モチベーションに問題があり、常にタスクを延期している人に役立ちます。遅れは永続的なやる気の低下につながることが知られています。モチベーションの向上とより良い時間管理は、人々がより効率的に働き、永続的な結果を達成するのに役立ちます。BookJack アプリは、人々は、一定の時間内に結果を達成するための目標と動機を持ち、時間管理のスキルと効率を向上させることができます.',
+
+    'どのようなホルモンが関与し、どのように役立つか。',
+    'BookJack アプリを使用すると、活性化されるホルモンがいくつかあります。主にストレス ホルモンであるコルチゾールは、体が圧力やストレスに対処するのを助けます。血圧を下げ、神経系を落ち着かせます。エンドルフィンは、アプリのユーザーが目標と達成. 成功への欲求の高まりを通じて. これらのホルモンは、アプリを使用する過程で人を助けることができます.',
+
     'BookJack の有用性は、経済的な観点からどのように説明できますか?',
     'BookJack アプリケーションでは、人は投資を行い、将来大きな利益を得る機会と引き換えに自分のお金を危険にさらします。期限に間に合わなければ、お金を失います。これは危険な投資の例です。投資家は具体的なリターンを得ることができますが、失敗した場合、すべてを失う可能性があります.通常、そのような投資ビークルは良い収益機会を提供し、経済に一定の利益をもたらします.',
     '親はどうすれば子供にこのアプリを使わせることができますか?',
@@ -292,13 +292,13 @@ export const chat = {
     '예, 귀하의 BookJack 애플리케이션은 고유합니다. 블록체인 기술을 사용하므로 특별하고 흥미로워집니다.',
     '사용자가 자신의 돈만 따고 그 이상은 얻지 못한다면 왜 사용자에게 이로울 수 있습니까?',
     '사용자는 이 애플리케이션을 사용하여 더 많은 동기를 부여하고 규율을 보여줄 수 있습니다. 이러한 방식으로 사용자는 자신의 목표를 설정하고 이를 달성하도록 동기를 부여합니다. 예를 들어 사용자는 특정 페이지 매개변수를 계산하도록 독려하기 위해 높은 비율을 설정할 수 있습니다. 특정 기한 전에 성공하면 사용자는 돈뿐만 아니라 귀중한 정신 훈련도 돌려받을 것입니다.',
-    '과학적으로 설명하세요.',
-    '과학적 심리학의 관점에서 사용자가 BookJack 애플리케이션을 사용하는 것은 목표를 달성하기 위해 동기를 부여할 수 있는 기회를 제공하므로 유익할 수 있습니다. 연구에 따르면 재산 보상을 사용하면 동기 부여가 증가하고 사람들이 생산성을 높이는 데 도움이 될 수 있습니다. 이 경우 사용자는 돈을 돌려받기 때문에 일정 기간 동안 독서에 대한 동기를 부여할 수 있습니다. 연구에 따르면 일부 사람들은 심리적 위험으로 재정적 안정을 증가시킬 수 있으며 이는 성취를 자극할 수 있습니다.',
-    '어떤 호르몬이 관련되어 있고 어떻게 도움이 되는지.',
-    'BookJack 앱을 사용할 때 활성화되는 여러 호르몬이 있습니다. 주로 신체가 압력과 스트레스에 대처하는 데 도움이 되는 스트레스 호르몬인 코르티솔입니다. 혈압을 낮추고 신경계를 진정시킵니다. 엔돌핀은 또한 앱 사용자가 성공에 대한 갈망 증가를 통해 목표를 달성하고 달성하십시오. 이러한 호르몬은 앱을 사용하는 과정에서 사람을 도울 수 있습니다.',
 
     '심리학적 관점에서 BookJack의 유용성을 어떻게 설명할 수 있습니까?',
     'BookJack 앱은 동기 부여 문제가 있고 지속적으로 작업을 미루는 사람들에게 도움이 될 수 있습니다. 지연은 영구적인 의욕 저하로 이어지는 것으로 알려져 있습니다. 증가된 동기 부여와 더 나은 시간 관리는 사람들이 보다 효율적으로 작업하고 지속적인 결과를 달성하는 데 도움이 될 수 있습니다. BookJack 앱은 다음을 제공합니다. 사람들에게 특정 시간에 결과를 달성하려는 목표와 동기를 부여하여 시간 관리 기술과 효율성을 향상시킬 수 있습니다.',
+
+    '어떤 호르몬이 관련되어 있고 어떻게 도움이 되는지.',
+    'BookJack 앱을 사용할 때 활성화되는 여러 호르몬이 있습니다. 주로 신체가 압력과 스트레스에 대처하는 데 도움이 되는 스트레스 호르몬인 코르티솔입니다. 혈압을 낮추고 신경계를 진정시킵니다. 엔돌핀은 또한 앱 사용자가 성공에 대한 갈망 증가를 통해 목표를 달성하고 달성하십시오. 이러한 호르몬은 앱을 사용하는 과정에서 사람을 도울 수 있습니다.',
+
     '경제적 관점에서 북잭의 유용성을 어떻게 설명할 수 있을까요?',
     'BookJack 애플리케이션에서 사람은 미래에 큰 이익을 얻을 수 있는 기회를 얻기 위해 자신의 돈을 걸고 투자를 합니다. 마감일을 지키지 않으면 돈을 잃게 됩니다. 이것은 위험한 투자의 예입니다. 투자자는 실질적인 수익을 올릴 수 있지만 실패할 경우 모든 것을 잃을 수 있습니다. 일반적으로 이러한 투자 수단은 좋은 수익 기회를 제공하고 경제에 특정 혜택을 제공합니다.',
     '부모가 자녀가 이 앱을 사용하도록 하려면 어떻게 해야 합니까?',
@@ -315,13 +315,13 @@ export const chat = {
     'نعم ، تطبيق BookJack الخاص بك فريد من نوعه. فهو يستخدم تقنية blockchain ، مما يجعله مميزًا وممتعًا.',
     'لماذا يمكن أن يكون مفيدًا للمستخدم إذا ربح فقط أمواله الخاصة ، ولكن ليس أكثر.',
     'يمكن للمستخدم استخدام هذا التطبيق ليكون أكثر حماسًا ولإظهار الانضباط. وبهذه الطريقة ، يحدد المستخدم نفسه أهدافه ويحفزه على تحقيقها. على سبيل المثال ، يمكن للمستخدم تحديد معدلات عالية لتشجيع نفسه على حساب معلمات صفحة معينة قبل موعد نهائي معين. إذا نجح المستخدم ، فلن يعيد المال فحسب ، بل سيعود أيضًا إلى الانضباط العقلي القيّم. ',
-    'اشرحها علميا.',
-    'من وجهة نظر علم النفس العلمي ، يمكن أن يكون استخدام المستخدم لتطبيق BookJack مفيدًا لأنه يوفر الفرصة للتحفيز لتحقيق هدف ما. تظهر الأبحاث أن استخدام مكافآت الممتلكات يمكن أن يزيد الحافز ويساعد الناس على زيادة إنتاجيتهم. في هذه الحالة ، يمكن تحفيز المستخدم على القراءة حتى فترة معينة ، حيث يسترد نقوده. كما تظهر الأبحاث أن بعض الأشخاص يمكن أن يزيدوا من الاستقرار المالي كمخاطر نفسية ، وهذا يمكن أن يحفزهم على الإنجاز. ',
-    'ما الهرمونات المعنية وكيف تساعد.',
-    'هناك العديد من الهرمونات التي سيتم تنشيطها عند استخدام تطبيق BookJack. في المقام الأول ، هرمون الإجهاد الكورتيزول ، الذي يساعد الجسم على التعامل مع الضغط والتوتر. كما أنه يخفض ضغط الدم ويهدئ الجهاز العصبي. ويمكن للإندورفين أيضًا أن يساعد مستخدم التطبيق على تعيين الهدف وتحقيقه. من خلال الرغبة المتزايدة في النجاح. يمكن أن تساعد هذه الهرمونات الشخص في عملية استخدام التطبيق. ',
 
     'كيف يمكن تفسير فائدة BookJack من وجهة نظر نفسية؟',
     'يمكن أن يكون تطبيق BookJack مفيدًا للأشخاص الذين لديهم مشكلات في التحفيز ويؤجلون مهامهم باستمرار. ومن المعروف أن التأخيرات تؤدي إلى إحباط دائم. ويمكن أن يساعد التحفيز المتزايد وإدارة الوقت بشكل أفضل الأشخاص على العمل بكفاءة أكبر وتحقيق نتائج دائمة. يوفر تطبيق BookJack الأشخاص هدف ودافع لتحقيق نتيجة في وقت معين ، مما يسمح لهم بتحسين مهاراتهم في إدارة الوقت وكفاءتهم. ',
+
+    'ما الهرمونات المعنية وكيف تساعد.',
+    'هناك العديد من الهرمونات التي سيتم تنشيطها عند استخدام تطبيق BookJack. في المقام الأول ، هرمون الإجهاد الكورتيزول ، الذي يساعد الجسم على التعامل مع الضغط والتوتر. كما أنه يخفض ضغط الدم ويهدئ الجهاز العصبي. ويمكن للإندورفين أيضًا أن يساعد مستخدم التطبيق على تعيين الهدف وتحقيقه. من خلال الرغبة المتزايدة في النجاح. يمكن أن تساعد هذه الهرمونات الشخص في عملية استخدام التطبيق. ',
+
     'كيف يمكن تفسير فائدة BookJack من وجهة نظر اقتصادية؟',
     'في تطبيق BookJack ، يقوم الشخص باستثمار ، ويخاطر بأمواله مقابل فرصة تحقيق ربح كبير في المستقبل. إذا لم يلتزم بالموعد النهائي ، فإنه يخسر أمواله. هذا مثال على استثمار محفوف بالمخاطر حيث يمكن للمستثمر تحقيق عوائد ملموسة ، ولكن في حالة الفشل ، يمكن أن يخسر كل شيء. عادةً ، توفر هذه الأداة الاستثمارية فرصًا جيدة للكسب وتجلب فوائد معينة للاقتصاد. ',
     'كيف يمكن للآباء حث أطفالهم على استخدام هذا التطبيق؟',
@@ -338,13 +338,13 @@ export const chat = {
     "כן, אפליקציית BookJack שלך היא ייחודית. היא משתמשת בטכנולוגיית בלוקצ'יין, מה שהופך אותה למיוחדת ומעניינת.",
     'מדוע זה יכול להועיל למשתמש אם הוא זוכה רק בכסף שלו, אבל לא יותר.',
     'המשתמש יכול להשתמש באפליקציה הזו כדי לקבל יותר מוטיבציה ולהפגין משמעת. בדרך זו המשתמש עצמו מגדיר את המטרות שלו ומניע אותו להשיגן. לדוגמה, המשתמש יכול להגדיר שיעורים גבוהים כדי לעודד את עצמו לחשב פרמטרים מסוימים של עמודים לפני מועד מסוים. אם יצליח המשתמש יחזיר לא רק כסף, אלא גם משמעת נפשית חשובה.',
-    'תסביר את זה בצורה מדעית.',
-    'מנקודת מבט של פסיכולוגיה מדעית, השימוש של המשתמש באפליקציית BookJack יכול להיות מועיל שכן הוא מציע הזדמנות לקבל מוטיבציה להשגת מטרה. מחקרים מראים ששימוש בתגמולים על רכוש יכול להגביר את המוטיבציה ולעזור לאנשים להגביר את התפוקה שלהם. במקרה זה, המשתמש יכול לקבל מוטיבציה לקרוא עד תקופה מסוימת, שכן הוא מקבל את כספו בחזרה. מחקרים מראים גם שאנשים מסוימים יכולים להגביר את היציבות הפיננסית כסיכון פסיכולוגי, וזה יכול לעורר את ההישגים שלהם.',
-    'אילו הורמונים מעורבים וכיצד הם עוזרים.',
-    'ישנם מספר הורמונים שיופעלו בשימוש באפליקציית BookJack. בעיקר הורמון הסטרס קורטיזול, שעוזר לגוף להתמודד עם לחץ ולחץ. הוא מוריד לחץ דם ומרגיע את מערכת העצבים. אנדורפינים יכולים גם לעזור למשתמש באפליקציה להגדיר מטרה ולהשיג אותה. באמצעות השתוקקות מוגברת להצלחה. ההורמונים הללו יכולים לעזור לאדם בתהליך השימוש באפליקציה.',
 
     'כיצד ניתן להסביר את התועלת של BookJack מנקודת מבט פסיכולוגית?',
     'אפליקציית BookJack יכולה להיות מועילה לאנשים שיש להם בעיות מוטיבציה ודוחים כל הזמן את המשימות שלהם. עיכובים ידועים כמובילים להפחתת מוטיבציה קבועה. מוטיבציה מוגברת וניהול זמן טוב יותר יכולים לעזור לאנשים לעבוד בצורה יעילה יותר ולהשיג תוצאות מתמשכות. אפליקציית BookJack מספקת לאנשים מטרה ומוטיבציה להשיג תוצאה בזמן מסוים, מה שמאפשר להם לשפר את כישורי ניהול הזמן ויעילותם',
+
+    'אילו הורמונים מעורבים וכיצד הם עוזרים.',
+    'ישנם מספר הורמונים שיופעלו בשימוש באפליקציית BookJack. בעיקר הורמון הסטרס קורטיזול, שעוזר לגוף להתמודד עם לחץ ולחץ. הוא מוריד לחץ דם ומרגיע את מערכת העצבים. אנדורפינים יכולים גם לעזור למשתמש באפליקציה להגדיר מטרה ולהשיג אותה. באמצעות השתוקקות מוגברת להצלחה. ההורמונים הללו יכולים לעזור לאדם בתהליך השימוש באפליקציה.',
+
     'כיצד ניתן להסביר את התועלת של BookJack מנקודת מבט כלכלית?',
     'באפליקציית BookJack אדם מבצע השקעה, ומסכן את כספו בתמורה להזדמנות להרוויח גדול בעתיד. אם הוא לא עומד בדדליין, הוא מפסיד את כספו. זו דוגמה להשקעה מסוכנת. שבהן המשקיע יכול להניב תשואות מוחשיות, אך במקרה של כישלון, הוא יכול להפסיד הכל. בדרך כלל, כלי השקעה כזה מספק הזדמנויות השתכרות טובות ומביא יתרונות מסוימים למשק.',
     'איך הורים יכולים לגרום לילדים שלהם להשתמש באפליקציה הזו?',
