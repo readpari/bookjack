@@ -17,35 +17,25 @@ import { backup } from '../../../utils/syncUtils/backupUtil';
 import { isElectron } from 'react-device-detect';
 import SelectBook from '../../../components/selectBook';
 import ShelfSelector from '../../../components/shelfSelector';
-import { text } from './text';
+import { text, chat } from './text';
+
 import { useState, useEffect } from 'react';
 
 const AboutList = () => {
-  const langs = [
-    'EN',
-    'RU',
-    'CHN',
-    'FR',
-    'GRM',
-    'ITL',
-    'SPN',
-    '日本語',
-    '韓國語',
-    'العربية',
-    'עִבְרִית',
-  ];
-
   const [activeLang, setActiveLang] = useState('EN');
   const [textLang, setTextLang] = useState(text['EN']);
+  const [chatLang, setChatLang] = useState(chat['EN']);
 
   return (
     <div className="book-list-container-parent">
       <div className="aboutContainer">
         <div className="languageButtons">
-          {langs.map((lang) => (
+          {Object.keys(text).map((lang) => (
             <div
               className="lang"
-              onPointerDown={() => (setActiveLang(lang), setTextLang(text[lang]))}
+              onPointerDown={() => (
+                setActiveLang(lang), setTextLang(text[lang]), setChatLang(chat[lang])
+              )}
               style={{ color: lang == activeLang ? 'red' : 'black' }}>
               {lang}
             </div>
@@ -54,6 +44,14 @@ const AboutList = () => {
 
         {textLang.map((item) => (
           <p className="aboutText">{item}</p>
+        ))}
+
+        <h1 className="chatHeader">ChatGPT</h1>
+
+        {chatLang.map((item, index) => (
+          <div className="qContainer">
+            {index % 2 ? <p className="aboutText">{item}</p> : <h2>{item}</h2>}
+          </div>
         ))}
       </div>
     </div>
